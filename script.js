@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function(){
          try{
 
             const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
-            if (!response.ok) {   // handles 404, 401, 500 etc.
+            if (!response.ok) {   
                 throw new Error("City not found");
             }
             const data = await response.json();
