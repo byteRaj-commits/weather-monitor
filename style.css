@@ -95,3 +95,14 @@ body{
     font-size: 28px;
     margin-top: -6px;
 }
+
+.hidden{
+    display: none;
+}
+
+
+.error {
+    color: #ffdddd;
+    margin-top: 10px;
+    font-size: 16px;
+}
